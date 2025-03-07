@@ -1,9 +1,9 @@
-import cv2
-import dlib
-import numpy as np
-from scipy.spatial import distance as dist
+import cv2 # type: ignore
+import dlib # type: ignore
+import numpy as np # type: ignore
+from scipy.spatial import distance as dist # type: ignore
 import time
-from playsound import playsound
+from playsound import playsound # type: ignore
 import threading
 
 # Function to calculate Eye Aspect Ratio (EAR)
